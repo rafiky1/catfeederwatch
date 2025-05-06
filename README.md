@@ -14,7 +14,7 @@ This project automatically logs when your cat visits the feeding area, captures 
   - Total sessions and average durations
   - Time-of-day trends
   - Duration category distribution
-  - Live snapshot gallery with "View All" toggle
+  - Live snapshot gallery
 - 🧠 Built with OpenCV, Streamlit, Plotly, and Python 3
 - 🐍 Lightweight and designed for Raspberry Pi
 
@@ -22,16 +22,22 @@ This project automatically logs when your cat visits the feeding area, captures 
 
 ## 🚀 Getting Started
 
-### 1. Flash Raspberry Pi OS (Bookworm)
+1. Flash Raspberry Pi OS (Bookworm)
 Use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and enable SSH + Wi-Fi in advanced settings.
 
-2. Clone this repository
+2. Install Git (if not installed)
 
-'''bash
+sudo apt update
+sudo apt install git
+
+3. Clone this repository
+
+cd ~
 git clone https://github.com/rafiky1/catfeederwatch.git
 cd catfeederwatch
 
-3. Set up your environment
+
+4. Set up your environment
 
 python3 -m venv env
 source env/bin/activate
@@ -59,20 +65,20 @@ uvicorn api_server:app --host 0.0.0.0 --port 8000
 Start the Logger
 python3 cat_logger.py
 
-Pass a duration (in seconds) to simulate a feeding event.
-
 Start the Dashboard
-
 streamlit run dashboard.py
 
-(Optional) start_feeder.sh (Auto startup script)
+(Optional) Enable Auto Start on Boot
 
 chmod +x start_feeder.sh
 
 To run: ./start_feeder.sh
 
+sudo systemctl enable catfeeder.service
+sudo systemctl start catfeeder.service
 
-✅ Add and Push to GitHub
+to check if it's running: 
+sudo systemctl status catfeeder.service
 
 📸 Screenshots
 

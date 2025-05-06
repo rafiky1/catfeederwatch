@@ -65,6 +65,14 @@ Start the Dashboard
 
 streamlit run dashboard.py
 
+(Optional) start_feeder.sh (Auto startup script)
+
+chmod +x start_feeder.sh
+
+To run: ./start_feeder.sh
+
+
+✅ Add and Push to GitHub
 
 📸 Screenshots
 

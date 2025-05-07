@@ -82,5 +82,15 @@ sudo systemctl status catfeeder.service
 
 📸 Screenshots
 
+<img width="1205" alt="Screenshot 2025-05-06 at 8 27 52 PM" src="https://github.com/user-attachments/assets/b70ac53d-d88c-4efa-9e52-914c67393bf3" />
+<img width="1226" alt="Screenshot 2025-05-06 at 8 27 59 PM" src="https://github.com/user-attachments/assets/7a3f72e9-3232-4575-8c4c-a6ee5bb076ff" />
+<img width="1232" alt="Screenshot 2025-05-06 at 8 28 05 PM" src="https://github.com/user-attachments/assets/9adc6ee2-d4ae-431d-934a-fa5b2b752de8" />
+<img width="1217" alt="Screenshot 2025-05-06 at 8 28 17 PM" src="https://github.com/user-attachments/assets/02488091-2c87-4bc7-af63-77d19a73b57c" />
+<img width="1250" alt="Screenshot 2025-05-06 at 8 28 23 PM" src="https://github.com/user-attachments/assets/59287e88-f9cc-4e85-9129-34b332a3cf5e" />
+<img width="1205" alt="Screenshot 2025-05-06 at 8 28 30 PM" src="https://github.com/user-attachments/assets/02b47c9f-d5de-45f1-b408-20fd445be307" />
+<img width="1191" alt="Screenshot 2025-05-06 at 8 28 38 PM" src="https://github.com/user-attachments/assets/3673f32f-d9e0-4fbd-93ee-42b409bf6113" />
+
+
+
 
 
